@@ -1,0 +1,38 @@
+﻿@using Blazor.Extensions
+@using Blazor.Extensions.Canvas.Canvas2D
+@using Blazor.Extensions.Canvas.Adapter
+@using BodePlotting.Drawing.MyMath
+
+<BECanvas Width="1000" Height="600" @ref="_canvasReference"></BECanvas>
+
+@code {
+    private Canvas2DContext _context;
+    private BECanvasAdapter _canvasAdapter;
+    private BodePlotting.Drawing.Charts.Logarithmic.LogarithmicChart chart;
+
+    protected BECanvasComponent _canvasReference;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        _context = await this._canvasReference.CreateCanvas2DAsync();
+
+        _canvasAdapter = new(_context);
+
+        chart = new(
+        _canvasAdapter,
+        new Vector(10, 10),
+        800,
+        400,
+        8,
+        6,
+        0,
+        8); 
+
+
+        await _context.BeginBatchAsync();
+
+        chart.Draw();
+
+        await _context.EndBatchAsync();
+    }
+}

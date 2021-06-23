@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BodePlotting</name>
+    </assembly>
+    <members>
+        <member name="T:BodePlotting.Drawing.Canvas.ICanvas">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BodePlotting.Drawing.Canvas.ICanvas.PlotLine(BodePlotting.Drawing.MyMath.Vector,BodePlotting.Drawing.MyMath.Vector)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BodePlotting.Drawing.Canvas.ICanvas.PlotRectangle(BodePlotting.Drawing.MyMath.Vector,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BodePlotting.Drawing.Canvas.ICanvas.SetLineWidth(System.Double)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BodePlotting.Drawing.Canvas.ICanvas.GetLineWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BodePlotting.Drawing.Charts.Logarithmic.LabeledLogarithmicChart.Position">
+            <summary>
+            Total position in the graphical environment (top left corner).<br/>
+            </summary>
+        </member>
+        <member name="P:BodePlotting.Drawing.Charts.Logarithmic.LabeledLogarithmicChart.Size">
+            <summary>
+            Size of the whole graphical element including the graph<br/>
+            , labeling of the axis and related margins.
+            </summary>
+        </member>
+        <member name="T:BodePlotting.Drawing.Charts.Logarithmic.LogarithmicChart">
+            <summary>
+            Encapsulates a logarithmic chart.
+            </summary>
+            <remarks>
+            Chart element of a <see cref="T:BodePlotting.Drawing.Charts.Logarithmic.LabeledLogarithmicChart"/>.
+            </remarks>
+        </member>
+        <member name="T:BodePlotting.Drawing.Charts.Logarithmic.LogarithmicPartition">
+            <summary>
+            Defines a logarithmic partition in a chart.
+            </summary>
+            <remarks>
+            This class helps to find the positions of the separation lines <br/>
+            within the partition by calculating them logarithmicly: <br/>
+            Xn = Log10(n) * Length
+            </remarks>
+        </member>
+    </members>
+</doc>
