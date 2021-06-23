@@ -17,6 +17,8 @@ namespace BodePlotting.Drawing.Charts.Logarithmic
         public int NumberOfRows { get; set; }
         public int HorizontalFactor { get; set; }
         public int VerticalFactor { get; set; }
+        public int HighlightEveryNRow { get; set; } = 1;
+        public int HighlightEveryNCollumn { get; set; } = 1;
         #endregion
 
         public LogarithmicChart(
@@ -52,11 +54,19 @@ namespace BodePlotting.Drawing.Charts.Logarithmic
             double yPos = BottomBorder;
             for(int i = 0; i < NumberOfRows; i++)
             {
-                DrawRowLine(yPos);
+                if (i % HighlightEveryNRow == 0)
+                    Highlight(() => { DrawRowLine(yPos); });
+                else
+                    DrawRowLine(yPos);
+
                 DrawVerticalSeparationLines(yPos, distances);
                 yPos -= rowHeight;
             }
-            DrawRowLine(yPos);
+
+            if (NumberOfRows % HighlightEveryNRow == 0)
+                Highlight(() => { DrawRowLine(yPos); });
+            else
+                DrawRowLine(yPos);
         }
         private void DrawCollumns()
         {
@@ -67,11 +77,19 @@ namespace BodePlotting.Drawing.Charts.Logarithmic
             double xPos = LeftBorder;
             for (int i = 0; i < NumberOfCollumns; i++)
             {
-                DrawCollumnLine(xPos);
+                if (i % HighlightEveryNCollumn == 0)
+                    Highlight(() => { DrawCollumnLine(xPos); });
+                else
+                    DrawCollumnLine(xPos);
+
                 DrawHorizontalSeparationLines(xPos, distances);
                 xPos += collumWidth;
             }
-            DrawCollumnLine(xPos);
+            if (NumberOfCollumns % HighlightEveryNCollumn == 0)
+                Highlight(() => { DrawCollumnLine(xPos); });
+            else
+                DrawCollumnLine(xPos);
+
         }
         private void DrawRowLine(double yPos)
         {
