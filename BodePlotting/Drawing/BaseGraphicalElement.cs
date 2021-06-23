@@ -8,54 +8,12 @@ namespace BodePlotting.Drawing
     {
         public ICanvas Canvas { get; }
 
-        #region fields
-        private double width;
-        private double height;
-        #endregion
-
         public virtual Vector Position { get; set; }
 
         #region dimensions
-        public event EventHandler WidthChanged;
-        public event EventHandler HeightChanged;
-        protected virtual void OnWidthChanged()
-        {
-            WidthChanged?.Invoke(this, new());
-        }
-        protected virtual void OnHeightChanged()
-        {
-            HeightChanged?.Invoke(this, new());
-        }
-        public double Width
-        {
-            get
-            {
-                return width;
-            }
-            set
-            {
-                if (value != width)
-                {
-                    width = Math.Max(1, value);
-                    OnHeightChanged();
-                }
-            }
-        }
-        public double Height
-        {
-            get
-            {
-                return height;
-            }
-            set
-            {
-                if (value != height)
-                {
-                    height = Math.Max(1, value);
-                    OnWidthChanged();
-                }
-            }
-        }
+        public double Width { get; set; }
+
+        public double Height { get; set; }
         #endregion
 
         #region borders

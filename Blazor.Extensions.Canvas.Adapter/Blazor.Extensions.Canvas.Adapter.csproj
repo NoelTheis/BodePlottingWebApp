@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BodePlotting\BodePlotting\BodePlotting.csproj" />
     <ProjectReference Include="..\BodePlotting\BodePlotting.csproj" />
   </ItemGroup>
 

@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BodePlotting\BodePlotting\BodePlotting.csproj" />
     <ProjectReference Include="..\Blazor.Extensions.Canvas.Adapter\Blazor.Extensions.Canvas.Adapter.csproj" />
     <ProjectReference Include="..\BodePlotting\BodePlotting.csproj" />
   </ItemGroup>
