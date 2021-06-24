@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="BodePlotting.Drawing.LogPlot namespace" Url="html/62f7df8a-f6be-bfae-9cad-d995371ab195.htm" />
+  <HelpKINode Title="BodePlotting.Drawing.LogPlot.HorizontalPartition class" Url="html/3630cecd-df98-9fbe-bb8d-b688981e7a35.htm" />
+  <HelpKINode Title="BodePlotting.Drawing.LogPlot.LogPlot class" Url="html/e6e7b18c-23ae-3a48-e332-120e21254871.htm" />
+  <HelpKINode Title="CalculateXPositionsOfSeparationLines method" Url="html/c6b82090-af9b-2f89-919d-ef0f1ac108b1.htm" />
+  <HelpKINode Title="GraphSize property" Url="html/b904ff62-a127-b87e-dd3b-96fd1f0d5b7b.htm" />
+  <HelpKINode Title="HorizontalPartition class">
+    <HelpKINode Title="HorizontalPartition Class" Url="html/3630cecd-df98-9fbe-bb8d-b688981e7a35.htm" />
+    <HelpKINode Title="constructor" Url="html/6f3a11fa-75d2-6bfe-5e68-c2ca1efdf45b.htm" />
+    <HelpKINode Title="fields" Url="html/d3689ef5-3b03-384d-6339-d70640cdb91d.htm" />
+    <HelpKINode Title="methods" Url="html/430c8f10-cc22-b3b9-3515-a61d20d2010b.htm" />
+    <HelpKINode Title="properties" Url="html/5c4a7e9d-b4e1-4b1e-fdc0-d41f1cc52bda.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HorizontalPartition.CalculateXPositionsOfSeparationLines method" Url="html/c6b82090-af9b-2f89-919d-ef0f1ac108b1.htm" />
+  <HelpKINode Title="HorizontalPartition.HorizontalPartition constructor" Url="html/6f3a11fa-75d2-6bfe-5e68-c2ca1efdf45b.htm" />
+  <HelpKINode Title="HorizontalPartition.numberOfSeparationLines field" Url="html/18285b9c-dab2-8eb6-16e5-dc30eae4d5bc.htm" />
+  <HelpKINode Title="HorizontalPartition.NumberOfSeparationLines property" Url="html/de5c929f-2ee2-7297-05f7-cc90fd5d44f2.htm" />
+  <HelpKINode Title="HorizontalPartition.width field" Url="html/2923b337-c5e5-77ca-586a-c1165d6af244.htm" />
+  <HelpKINode Title="HorizontalPartition.Width property" Url="html/b23a08df-01fa-f203-a028-1a6f4063557a.htm" />
+  <HelpKINode Title="HorizontalPartition.XPositionsOfSeparationLines property" Url="html/77e754a4-ed12-ae65-26b1-01a778bd05c5.htm" />
+  <HelpKINode Title="LogPlot class">
+    <HelpKINode Title="LogPlot Class" Url="html/e6e7b18c-23ae-3a48-e332-120e21254871.htm" />
+    <HelpKINode Title="constructor" Url="html/a3a654c1-577d-4800-5647-e6c30db34040.htm" />
+    <HelpKINode Title="methods" Url="html/3bec4ebd-5ce5-bb68-346b-e1613e4ed2a6.htm" />
+    <HelpKINode Title="properties" Url="html/2ffb99a5-d48c-fc4a-9935-b07d4fdfff11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogPlot.GraphSize property" Url="html/b904ff62-a127-b87e-dd3b-96fd1f0d5b7b.htm" />
+  <HelpKINode Title="LogPlot.LogPlot constructor" Url="html/a3a654c1-577d-4800-5647-e6c30db34040.htm" />
+  <HelpKINode Title="LogPlot.Position property" Url="html/8c9aa229-5a72-c297-7f3a-96a847ca084e.htm" />
+  <HelpKINode Title="LogPlot.TotalSize property" Url="html/a791e971-52a1-409d-21bb-49106652aaf4.htm" />
+  <HelpKINode Title="numberOfSeparationLines field" Url="html/18285b9c-dab2-8eb6-16e5-dc30eae4d5bc.htm" />
+  <HelpKINode Title="NumberOfSeparationLines property" Url="html/de5c929f-2ee2-7297-05f7-cc90fd5d44f2.htm" />
+  <HelpKINode Title="Position property" Url="html/8c9aa229-5a72-c297-7f3a-96a847ca084e.htm" />
+  <HelpKINode Title="TotalSize property" Url="html/a791e971-52a1-409d-21bb-49106652aaf4.htm" />
+  <HelpKINode Title="width field" Url="html/2923b337-c5e5-77ca-586a-c1165d6af244.htm" />
+  <HelpKINode Title="Width property" Url="html/b23a08df-01fa-f203-a028-1a6f4063557a.htm" />
+  <HelpKINode Title="XPositionsOfSeparationLines property" Url="html/77e754a4-ed12-ae65-26b1-01a778bd05c5.htm" />
+</HelpKI>

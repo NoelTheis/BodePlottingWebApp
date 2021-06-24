@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="b52993ba-05bc-4f99-bd2e-be50bb7eb01f" Title="BodePlotting.Drawing.LogPlot" Url="html/62f7df8a-f6be-bfae-9cad-d995371ab195.htm">
+    <HelpTOCNode Id="921e0812-db0c-4b7e-86ee-695e1b4da49e" Title="HorizontalPartition Class" Url="html/3630cecd-df98-9fbe-bb8d-b688981e7a35.htm">
+      <HelpTOCNode Title="HorizontalPartition Constructor " Url="html/6f3a11fa-75d2-6bfe-5e68-c2ca1efdf45b.htm" />
+      <HelpTOCNode Id="fc494cc9-5411-4a5c-82b8-255bd382025c" Title="HorizontalPartition Properties" Url="html/5c4a7e9d-b4e1-4b1e-fdc0-d41f1cc52bda.htm">
+        <HelpTOCNode Title="NumberOfSeparationLines Property " Url="html/de5c929f-2ee2-7297-05f7-cc90fd5d44f2.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/b23a08df-01fa-f203-a028-1a6f4063557a.htm" />
+        <HelpTOCNode Title="XPositionsOfSeparationLines Property " Url="html/77e754a4-ed12-ae65-26b1-01a778bd05c5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="de5e8727-5b89-49d1-a119-d78e7aa36e7d" Title="HorizontalPartition Methods" Url="html/430c8f10-cc22-b3b9-3515-a61d20d2010b.htm">
+        <HelpTOCNode Title="CalculateXPositionsOfSeparationLines Method " Url="html/c6b82090-af9b-2f89-919d-ef0f1ac108b1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ff7e53b3-9abc-4c22-9803-4fe4390a5c34" Title="HorizontalPartition Fields" Url="html/d3689ef5-3b03-384d-6339-d70640cdb91d.htm">
+        <HelpTOCNode Title="numberOfSeparationLines Field" Url="html/18285b9c-dab2-8eb6-16e5-dc30eae4d5bc.htm" />
+        <HelpTOCNode Title="width Field" Url="html/2923b337-c5e5-77ca-586a-c1165d6af244.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0be42dc2-a7af-4645-ad00-53f9decf3e8f" Title="LogPlot Class" Url="html/e6e7b18c-23ae-3a48-e332-120e21254871.htm">
+      <HelpTOCNode Title="LogPlot Constructor " Url="html/a3a654c1-577d-4800-5647-e6c30db34040.htm" />
+      <HelpTOCNode Id="a56c7863-dd36-43ca-8750-e548e1a96409" Title="LogPlot Properties" Url="html/2ffb99a5-d48c-fc4a-9935-b07d4fdfff11.htm">
+        <HelpTOCNode Title="GraphSize Property " Url="html/b904ff62-a127-b87e-dd3b-96fd1f0d5b7b.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/8c9aa229-5a72-c297-7f3a-96a847ca084e.htm" />
+        <HelpTOCNode Title="TotalSize Property " Url="html/a791e971-52a1-409d-21bb-49106652aaf4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LogPlot Methods" Url="html/3bec4ebd-5ce5-bb68-346b-e1613e4ed2a6.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
